@@ -12,6 +12,11 @@
     <div class="container">
         <div class="row">
             <h1>Todo List</h1>
+            <select name="todos" id="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
             <div class="input-group">
                 <input type="text" class="form-control" id="task-name" placeholder="what do you have in mind ?">
                 <button class="btn" id="todo-btn" type="submit">Add Task</button>
