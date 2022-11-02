@@ -16,9 +16,26 @@ ul {
 .fa-trash, .fa-check {
     pointer-events: none;
 }
+.trash-btn {
+    background-color: red;
+    border: none;
+    border-radius: var(--border-radius-md);
+    align-self: normal;
+}
+.complete-btn {
+    background-color: green;
+    border: none;
+    border-radius: var(--border-radius-md);;
+}
+.complete-btn:hover, .trash-btn:hover {
+    cursor: pointer;
+}
 .fall {
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
+}
+.todo-btn {
+    padding: 0.6rem;
 }
 .completed {
     text-decoration: line-through;
@@ -99,8 +116,10 @@ ul {
     align-content: center;
     align-items: center;
     font-size: 1.4rem;
-    padding: .3rem;
     border-radius: var(--border-radius-md);
     box-shadow: 2px 4px 5px rgba(12, 78, 82, 0.568);
-    transition: all 250ms ease;
+    transition: all 250ms ease;   
+}
+.todo-item {
+    flex-grow: 1;
 }

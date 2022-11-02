@@ -24,10 +24,12 @@ const addTodo = (e) => {
     const completedBtn = document.createElement('button');
     completedBtn.innerHTML = `<i class='fa-solid fa-check'></i>`
     completedBtn.classList.add('complete-btn');
+    completedBtn.classList.add('todo-btn');
     // Trash button
     const trashBtn = document.createElement('button');
     trashBtn.innerHTML = `<i class="fa-solid fa-trash"></i>`
     trashBtn.classList.add('trash-btn');
+    trashBtn.classList.add('todo-btn');
     // Adding items to html
     todoDiv.append(trashBtn);
     todoDiv.append(completedBtn);
