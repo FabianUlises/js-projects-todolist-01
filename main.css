@@ -1,3 +1,7 @@
+:root {
+    --border-radius-md: 8px;
+    --border-radius-lrg: 16px
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +25,7 @@ body {
     max-width: 500px;
     min-height: 400px;
     padding: .8rem;
+    border-radius: var(--border-radius-lrg);
 
 }
 .row h1 {
@@ -32,11 +37,32 @@ body {
 }
 .input-group {
     display: flex;
-    width: 100%;   
+    width: 100%;
+    gap: .5rem;
 }
 .input-group input {
     flex-grow: 1;
+    border-radius: var(--border-radius-md);
+    background-color: rgba(30, 133, 138, 0.233);
+    border: none;
+    padding: .4rem;
+}
+.input-group input:focus {
+    outline: none;
 }
 .input-group button {
     padding: .4rem .8rem;
+    border-radius: var(--border-radius-md);
+    background-color: rgba(30, 133, 138, 0.233);
+    border: none;
+    color: rgba(30, 132, 138, 0.877);
+    transition: all 250ms ease;
+}
+
+.input-group button:hover {
+    cursor: pointer;
+    background-color: rgba(30, 132, 138, 0.877);
+    color: whitesmoke;
+
+    
 }
