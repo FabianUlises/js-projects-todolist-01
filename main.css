@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container {
+    background-color: rgba(34, 101, 104, 0.397);
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.row {
+    background-color: rgba(245, 245, 245, 0.212);
+    box-shadow: 8px 8px 8px rgba(169, 169, 169, 0.24);
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    padding: .8rem;
+
+}
+.row h1 {
+    color: rgba(30, 132, 138, 0.877);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.input-group {
+    display: flex;
+    width: 100%;   
+}
+.input-group input {
+    flex-grow: 1;
+}
+.input-group button {
+    padding: .4rem .8rem;
+}
