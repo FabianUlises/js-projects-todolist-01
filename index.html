@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app.js"></script>
     <link rel="stylesheet" href="main.css">
     <title>TodoList</title>
 </head>
@@ -12,8 +13,13 @@
         <div class="row">
             <h1>Todo List</h1>
             <div class="input-group">
-                <input type="text" class="form-control" id="taskName">
-                <button class="btn btn-success">Add Task</button>
+                <input type="text" class="form-control" id="task-name">
+                <button class="btn btn-success" id="todo-btn" type="submit">Add Task</button>
+            </div>
+            <div class="todo-container">
+                <ul class="todo-list">
+
+                </ul>
             </div>
         </div>
     </div>

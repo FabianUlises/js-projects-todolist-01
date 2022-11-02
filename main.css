@@ -19,7 +19,7 @@ body {
     padding-bottom: 2rem;
 }
 .row {
-    background-color: rgba(245, 245, 245, 0.212);
+    background: linear-gradient(to bottom right,rgba(245, 245, 245, 0.212), rgba(34, 101, 104, 0.288));
     box-shadow: 8px 8px 8px rgba(169, 169, 169, 0.24);
     width: 100%;
     max-width: 500px;
@@ -62,7 +62,6 @@ body {
 .input-group button:hover {
     cursor: pointer;
     background-color: rgba(30, 132, 138, 0.877);
-    color: whitesmoke;
-
+    color: white;
     
 }
