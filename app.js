@@ -145,5 +145,12 @@ const deleteTodo = (e) => {
 // Eventlisteners
 document.addEventListener('DOMContentLoaded', addLocalTodos);
 todoBtn.addEventListener('click', addTodo);
+todoInput.addEventListener('keydown', (e) =>{
+    if(e.keyCode == 13) {
+        addTodo();
+    } else {
+        return;
+    }
+});
 todoCtn.addEventListener('click', deleteTodo);
 // filterSelect.addEventListener('click', filterTodos);

@@ -20,7 +20,7 @@ ul {
     background-color: red;
     border: none;
     border-radius: var(--border-radius-md);
-    align-self: normal;
+    /* align-self: normal; */
 }
 .complete-btn {
     background-color: green;
@@ -133,7 +133,8 @@ select:hover {
     font-size: 1.4rem;
     border-radius: var(--border-radius-md);
     box-shadow: 2px 4px 5px rgba(12, 78, 82, 0.568);
-    transition: all 250ms ease;   
+    transition: all 250ms ease;
+    word-break: break-all;
 }
 .todo-item {
     flex-grow: 1;
