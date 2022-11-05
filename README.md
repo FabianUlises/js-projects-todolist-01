@@ -1,5 +1,5 @@
 # js-projects-todolist-01
-##Missing:
+#Missing:
 filter, update completed ls,<br />
-##has:
+#has:
 localstorage save delete, no xss
